@@ -3,5 +3,3 @@ def is_palindrome(args):
 
 is_palindrome("kobyła ma mały bok")
 
-
-            
