@@ -1,5 +1,59 @@
-def is_palindrome(args):
-    return args == input(args[::-1])
 
-is_palindrome("utyte parówy, war-top, a na tłuszcz sułtana potrawy - wór apetytu")
+
+lista = ["kajak","potop","A to klei Popiel kota"]
+for text in lista: 
+   print(text[::-1])
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
