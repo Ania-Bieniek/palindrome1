@@ -3,6 +3,7 @@
 lista = ["Kajak","Potop","A to klei Popiel kota"]
 for text in lista: 
    print(text[::-1])
+   
 
 
 
