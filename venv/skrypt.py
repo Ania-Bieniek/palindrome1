@@ -1,4 +1,3 @@
-print("Greetings from file!")
 
 def greetings_from_file():
     print("Greetings from file!")

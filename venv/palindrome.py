@@ -1,10 +1,9 @@
 
 
-lista = ["Kajak","Potop","A to klei Popiel kota"]
-for text in lista: 
-   print(text[::-1])
-   
-
+text ="potop"
+def is_palindrome(text):
+    return text == text[::-1]
+print(is_palindrome(text))
 
 
 
