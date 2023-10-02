@@ -1,3 +1,5 @@
 # palindrome1
-- return zwraca wartość zmiennej args,  podstawionej  jako indeks elementu
+- def czy zmienna text jest palindromem
+- return zwraca wartość zmiennej text która jest definiowana przez indeks elementu
+  
   
