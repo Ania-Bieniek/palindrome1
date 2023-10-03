@@ -1,29 +1,18 @@
+#kiedy wiemy jakie argumenty od użytk. będą nam potrzebne, możemy podać je od razu przy uruchomieniu( argumenty skryptu)
+# gdybyśmy tą  funkcję zamkili w pliku stworzylibyśmy skrypt
+def custimized_hello(first_name, last_name):
+    print("Hello %s %s!" % (first_name, last_name))
+#wpisujemy dane "na sztywno"
+if __name__ == "__main__":
+    custimized_hello("John", "Clase")
 
-def greetings_from_file():
-    print("Greetings from file!")
+# moduł sys ze zmienną argv-która przetrzymuje wszystkie argum. programu.
+import sys
+def customized_hello(first_name, last_name):
+    print("Hello %s %s!" % (first_name, last_name))
+if __name__ == "__main__":
+    print(sys.argv)
+    customized_hello("John", "Clase")
 
-greetings_from_file()
 
-def shopping(items, payment='card', shop='local'):
-    result = ""
-    result = result + "Idę na zakupy do %s.\n" % shop
-    result = result + "Kupię następujące rzeczy:\n"
-    for item in items:
-        result = result + " - %s\n" % item
-    result = result + "By zapłacić, używam %s." % payment
-    return result
-
-items = ["cola", "whiskey", "lód"]
-text = shopping(items, 'card', 'small local shop')
-print(text)
-
-print("Pokażę wszystko, co wpiszesz!")
-text = input("wpisz swój tekst")
-print("Oto Twój tekst: ***%s***" % text)
-
-items_text = "cola,whiskey,lód"
-items = items_text.split(',')
-print(type(items))
-print(len(items))
-#  funkcja split, dzięki niej z tekstu produkujmy listę. Musimy podać parametr, którym rozdzielone są kolejne elementy naszego tekstu.
-
+    
