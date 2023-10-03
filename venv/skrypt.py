@@ -25,3 +25,5 @@ items_text = "cola,whiskey,lód"
 items = items_text.split(',')
 print(type(items))
 print(len(items))
+#  funkcja split, dzięki niej z tekstu produkujmy listę. Musimy podać parametr, którym rozdzielone są kolejne elementy naszego tekstu.
+
