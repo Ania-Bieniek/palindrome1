@@ -14,10 +14,13 @@ def shopping(items, payment='card', shop='lokal shop'):
     return result
 
 if __name__ == "__main__":
-    items_text = input('jaj, jaj, jaj, jaj')
-    items = items_text.split(',')
-    shopping_result = shopping(items)
-    print(shopping_result) 
+   items_text = input('jajka, masło')
+   items = items_text.split(',')
+shopping_result = shopping(items)
+print(shopping_result) 
+
+
+
     
 
 
