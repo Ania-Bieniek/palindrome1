@@ -17,6 +17,7 @@ if __name__ == "__main__":
     logging.debug("First parametr is %s" % sys.argv[1])
     age = int(sys.argv[1])
     print_maturity(age)
+    
    # wywołanie w konsoli ...palindrome> python level_log.py 33 Zosia
 
 # logowanie danych do pliku jest wygodne, bo informacje o tym gdzie i kiedy 
