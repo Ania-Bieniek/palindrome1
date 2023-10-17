@@ -19,22 +19,24 @@ def calc(x, y, choice):
         print(x / y) 
    
 
-
-if __name__ == "__main__":
+while True:
+  if __name__ == "__main__":
     choice = int(input("Podaj działanie posługując się odpowiednią liczbą: 1 Dodawanie 2 Odejmowanie 3 Mnożenie 4 Dzielenie:")) 
     if int(choice) > 5:
         exit(1)
     x = float((input("Podaj pierwszą liczbę:")))
     y = float((input("Podaj drugą liczbę:")))
     choice = int(choice)
-    calc(x, y, choice) # nie wiem jak użyć tu print, f-string nie zadziałał i inne próby...
-    choice = int(input("Podaj działanie posługując się odpowiednią liczbą: 1 Dodawanie 2 Odejmowanie 3 Mnożenie 4 Dzielenie:")) 
+    calc(x, y, choice)
+    
+     
     
 
 
 
 
 
+2
 
 
 
