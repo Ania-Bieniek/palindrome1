@@ -1,8 +1,3 @@
-# podaj imie i nazwisko
-print("Podaj imię i nazwisko:")
-name = input("Jotler-aucher von Hautkopft z Ulm")
-print("Witaj ***%s***" % name)
-
 #skrypt który pobiera pojedyńczy tekst-rozdzielony przecinkami- a następnie tworzy opis naszych zakupów
 def shopping(items, payment='card', shop='lokal shop'):
     result = ""
@@ -14,7 +9,7 @@ def shopping(items, payment='card', shop='lokal shop'):
     return result
 
 if __name__ == "__main__":
-   items_text = input('jajka, masło')
+   items_text = input("Podaj produkty rozdzielone przecinkiem:")
    items = items_text.split(',')
 shopping_result = shopping(items)
 print(shopping_result) 
