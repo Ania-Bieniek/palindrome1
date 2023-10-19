@@ -4,9 +4,7 @@ def clean_text(text):
     for s in text:
        if s.isalnum():
            cleaned_text += s
-       if  s == " " or s == "!":
-           continue
-           cleaned_text += s
+       
     return cleaned_text
 
 def is_palindrome(text):
@@ -21,7 +19,7 @@ assert is_palindrome("czekolada") == False
 assert is_palindrome("12345654321") == True
 assert is_palindrome("kobyła ma mały bok") == True
 assert is_palindrome("Kobyła ma Mały bok!") == True
-assert is_palindrome("dziecko mam chore, dobrze że jest przerwa") == False
+assert is_palindrome("Dobrze że jest przerwa") == False
 
 
 
