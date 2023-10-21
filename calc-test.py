@@ -24,7 +24,7 @@ operations = {
 
 def start():
     while True:
-        choice = int(input("Podaj działanie posługując się odpowiednią liczbą: 1 Dodawanie 2 Odejmowanie 3 Mnożenie 4 Dzielenie:"))
+        choice = input("Podaj działanie posługując się odpowiednią liczbą: 1 Dodawanie 2 Odejmowanie 3 Mnożenie 4 Dzielenie:")
         if int(choice) > 4:
           exit(1)
         x = float(input("Wpisz 1 cyfrę:"))
@@ -36,6 +36,7 @@ def start():
 if __name__ == "__main__":
     start()
     operations()
+    
 
 
 
