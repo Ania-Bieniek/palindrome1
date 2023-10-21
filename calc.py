@@ -33,7 +33,7 @@ def start():
         elif choice == 4:
             calc[3](x, y)
         result = calc(x,y)
-        print(result)
+        print(result) # nie rozumiem dlaczego nie działa... 
        
 if __name__ == "__main__":
     start()
